@@ -6,6 +6,7 @@ from .views import TypeView, CategoryView
 router = routers.DefaultRouter()
 router.register('types', views.TypeView)
 router.register('categories', views.CategoryView)
+router.register('varieties', views.VarietyView)
 
 
 urlpatterns = [
