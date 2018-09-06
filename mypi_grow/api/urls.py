@@ -9,6 +9,7 @@ router.register('categories', views.CategoryView)
 router.register('varieties', views.VarietyView)
 router.register('conditions', views.ConditionView)
 router.register('grows', views.GrowView)
+router.register('datasets', views.DatasetView)
 
 
 urlpatterns = [
